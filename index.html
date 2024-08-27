@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/styles.css" />
+    <title>Enciptador</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <img class="logo" src="./assets/Logo.svg" alt="logo" />
+      </header>
+      <main>
+        <section class="section1">
+          <div class="container__caja__texto">
+            <textarea
+              placeholder="Ingrese el texto aqui"
+              class="caja__texto"
+            ></textarea>
+          </div>
+          <div class="alerta">
+            <img src="./assets/alerta.svg" alt="alert" />
+            <p>Solo letras minusculas.</p>
+          </div>
+          <div class="container__botones">
+            <input type="button" class="boton__encriptar" value="Encriptar!" />
+            <input
+              type="button"
+              class="boton__desencriptar"
+              value="Desencriptar!"
+            />
+          </div>
+        </section>
+        <section class="section2">
+          <div class="container__munieco">
+            <img
+              src="./assets/1711034561932.png"
+              alt="munieco"
+              class="munieco1"
+            />
+          </div>
+          <div class="container__parrafo__munieco">
+            <h3>
+              Ningun mensaje fue <br />
+              encontrado.
+            </h3>
+            <p>
+              Ingresa el texto que deseas encriptar <br />
+              o desencriptar.
+            </p>
+          </div>
+          <div class="container__copiar">
+            <input type="button" class="boton__copiar" value="Copiar" />
+          </div>
+          <div class="container__resultado">
+            <p class="texto__result"></p>
+          </div>
+        </section>
+      </main>
+      <footer class="pie">
+        <p>Creado por: Keneth Garcia <br />Anio: 2024</p>
+      </footer>
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
